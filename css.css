@@ -1,0 +1,307 @@
+h1{
+    color:rgb(9, 97, 63);
+    text-align: center;
+    background-color: rgb(159, 238, 107);
+    border:3px solid rgb(25, 182, 51);
+}
+p{
+    color: rgb(12, 88, 69);
+    line-height: 1.5;
+}
+html{
+    background-color: rgb(178, 240, 183);
+}
+h2{
+    color: darkolivegreen;
+    text-shadow: 1px 10px 10px rgba(173, 171, 171, 0.5);
+}
+ul{
+    color: rgb(10, 153, 58) ;
+}
+a{
+    text-decoration: none;
+}
+form{
+    color: green;
+}
+.site-nav{
+    margin-top: 20px;
+}
+.site-nav ul{
+    margin: 0;
+    padding: 20px;
+}
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+.site-nav a{
+    color: rgb(34, 124, 23);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid rgb(95, 206, 128);
+}
+.site-nav a:hover{
+    background-color: rgb(126, 160, 133);
+}
+div{
+    white-space: normal;
+    color: rgb(178, 240, 183);
+}
+form{
+    background-color: rgb(204, 212, 206);
+    padding: 30px 40px;
+}
+.hidden-label{
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow:hidden;
+    visibility: hidden;
+}
+input,
+select{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+select{
+    -webkit-border-radius:0;
+    border-radius: 0;
+}
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(17, 97, 10);
+    outline: none;
+}
+input[type="email"]:focus,
+input[type="password"]:focus{
+    border: 1px solid rgb(77, 180, 82);
+    box-shadow: inset rgb(83, 95, 83);
+}
+input[type="submit"]{
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #8dc915;
+    color: #FFF;
+    padding: 10px 0;
+    border:1px solid #a6d34d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input[type="submit"]:hover,
+input[type="focus"]{
+    border: 1px solid #535E38;
+    background-color: #798A56;
+}
+.checkbox-text{
+    font-size:85%;
+    color: #777;
+}
+form{
+    text-align: center;
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  nav{
+      text-align: center;
+  }
+  @media screen and (max-width:700px){
+      .main-area,
+      .sidebar{
+          width: auto;
+          float: none;
+      }
+      .main-area{
+          padding-right: 0;
+      }  
+    }
+    @media screen and (min-width: 1300px) {
+        body {
+          font-size: 17px;
+        }
+      
+        .container {
+          max-width: 1200px;
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .container {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+      @media screen and (max-width: 700px) {
+        .site-nav li {
+          width: 33.332%;
+          margin-right: 0;
+        }
+      
+        .site-nav a {
+          padding: 15px 0;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          text-align: center;
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .site-nav li {
+          width: 50%;
+        }
+      }
+      nav {
+        width:500px;
+        margin:0 auto;
+        list-style:none;
+        }
+        nav li {
+        float:left;
+        }
+        nav a {
+        display:block;
+        text-align:center;
+        width:150px; /* fixed width */
+        text-decoration:none; 
+        }      
+        .form-row{
+            padding: 10px 0;
+            display: flex;
+        }
+        .form-row label{
+            padding-right: 10px;
+        }
+        .form-row input{
+            flex: 1;
+        }
+        .boxed {
+            border: 1px solid green ;
+            box-sizing: content-box;
+            width: 50%;
+            border: solid rgb(22, 148, 29) 5px;
+            padding: 20px 20px 0 20px;
+            background-color: rgb(90, 230, 101);
+            box-shadow: 10px -2px 5px rgba(0,0,0,.5);
+          }
+          h3{
+              color: darkgreen;
+              text-align: center;
+          }
+          img{
+              width: 50%;
+          }
+          body {
+            font-family: Helvetica, sans-serif;
+            padding: 5%;
+            text-align: center;
+            font-size: 50;
+            }
+            
+            /* Styling the area of the slides */
+            #slideshow {
+              overflow: hidden;
+              height: 510px;
+              width: 728px;
+              margin: 0 auto;
+              }
+              
+              /* Style each of the sides
+              with a fixed width and height */
+              .slide {
+              float: left;
+              height: 510px;
+              width: 728px;
+              }
+            
+            /* Add animation to the slides */
+            .slide-wrapper {
+            /* Calculate the total width on the
+            basis of number of slides */
+            width: calc(728px * 4);
+            
+            /* Specify the animation with the
+            duration and speed */
+            animation: slide 10s ease infinite;
+            }
+            
+            
+            
+            /* Define the animation
+            for the slideshow */
+            @keyframes slide {
+              /* Calculate the margin-left for
+              each of the slides */
+              20% {
+                margin-left: 0px;
+              }
+              
+              40% {
+                margin-left: calc(-728px * 1);
+              }
+              
+              60% {
+                margin-left: calc(-728px * 2);
+              }
+              
+              80% {
+                margin-left: calc(-728px * 3);
+              }
+              }
+              .thumbnails {
+                margin-right: -15px;
+              }
+              
+              .thumbnails a {
+                float: left;
+                width: 25%;
+                box-sizing: border-box;
+                padding-right: 15px;
+                margin-bottom: 15px;
+              }
+              
+              .thumbnails img {
+                width: 100%;
+                height: auto;
+                display: block;
+                transition: all 0.2s ease-in-out;
+              }
+              
+              .thumbnails:hover img {
+                opacity: 0.6;
+                transform: scale(0.92);
+              }
+              
+              .thumbnails:hover img:hover {
+                opacity: 1;
+                transform: scale(1) rotate(2deg);
+                box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+              }
+              
+              @media screen and (max-width: 767px) {
+                .thumbnails a {
+                  width: 50%;
+                }
+              }
+              orlando {
+width: 50;
+              }
+              html{
+                background-color: rgb(182, 253, 180);
+              }
